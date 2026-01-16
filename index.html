@@ -1,124 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Enchant Me! – Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0f0b1a;
-      color: #f2e9ff;
-      padding: 24px;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: 0 auto;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enchant Me! - Tarot readings, horoscopes, and moon phase guidance. Gentle guidance through tarot, astrology, and lunar cycles. No accounts, no subscriptions, just insight when you need it.">
+    <meta name="keywords" content="tarot, tarot reading, horoscope, moon phases, astrology, zodiac, daily tarot, tarot app, moon phase tracker, weekly horoscope, spiritual guidance, witchcraft, divination">
+    <meta name="author" content="Enchant Me!">
+    <meta name="theme-color" content="#331345">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://enchantmeapp.github.io/">
+    <meta property="og:title" content="Enchant Me! - Tarot, Horoscope & Moon Guidance">
+    <meta property="og:description" content="Gentle guidance through tarot, astrology, and lunar cycles for everyday life. No accounts, no subscriptions, just insight when you need it.">
+    <meta property="og:image" content="https://enchantmeapp.github.io/assets/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://enchantmeapp.github.io/">
+    <meta name="twitter:title" content="Enchant Me! - Tarot, Horoscope & Moon Guidance">
+    <meta name="twitter:description" content="Gentle guidance through tarot, astrology, and lunar cycles for everyday life">
+    <meta name="twitter:image" content="https://enchantmeapp.github.io/assets/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://enchantmeapp.github.io/">
+    
+    <title>Enchant Me! - Tarot, Horoscope & Moon Guidance for Everyday Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Enchant Me!",
+      "description": "Tarot readings, horoscopes, and moon phase guidance app",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
+      }
     }
-    h1, h2 {
-      color: #d6b4ff;
-    }
-    p {
-      margin-bottom: 1em;
-    }
-  </style>
+    </script>
 </head>
 <body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="floating-background"></div>
+        
+        <!-- Animated Card Columns (populated by JavaScript) -->
+        <div class="card-columns">
+            <div class="card-column column-up" data-column="1"></div>
+            <div class="card-column column-down" data-column="2"></div>
+            <div class="card-column column-up" data-column="3"></div>
+            <div class="card-column column-down" data-column="4"></div>
+            <div class="card-column column-up" data-column="5"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="app-title">Enchant Me!</h1>
+            <p class="tagline">Gentle guidance through tarot, astrology, and lunar cycles</p>
+            <div class="cta-container">
+                <img src="assets/iconf.png" alt="Enchant Me! App Icon" class="app-icon">
+                <a href="https://play.google.com/store/apps/details?id=com.roninworks.enchantme&pcampaignid=web_share" class="cta-button primary" target="_blank" rel="noopener">
+                    <img src="assets/google-play-badge.svg" alt="Get it on Google Play" class="play-badge">
+                </a>
+            </div>
+        </div>
+    </section>
 
-<h1>Privacy Policy – Enchant Me!</h1>
+    <!-- What Is Enchant Me? -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>What Is Enchant Me?</h2>
+            <div class="about-content">
+                <p>Enchant Me! is a calm, witchcraft-inspired app designed to offer daily insight and reflection.</p>
+                <p>Through tarot readings, weekly horoscopes, and moon phase guidance, the app helps you pause, reflect, and reconnect with your intuition — without pressure or complexity.</p>
+                <p>No accounts, no subscriptions, just guidance when you need it.</p>
+            </div>
+        </div>
+    </section>
 
-<p><strong>Last updated:</strong> 22.12.2025</p>
+    <!-- Core Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Core Features</h2>
+            <div class="features-grid">
+                <!-- Tarot Feature -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔮</div>
+                    <h3>Tarot Readings</h3>
+                    <ul class="feature-list">
+                        <li>Multiple spreads</li>
+                        <li>Thoughtful interpretations</li>
+                        <li>Daily card feature</li>
+                    </ul>
+                    <p class="feature-description">Explore tarot through single-card pulls, classic spreads, and daily guidance — designed for clarity, not confusion.</p>
+                </div>
 
-<p>
-Enchant Me! respects your privacy. This application is designed to function without collecting,
-storing, or processing personal user data. The app does not require registration, accounts,
-or login of any kind.
-</p>
+                <!-- Moon Phase Feature -->
+                <div class="feature-card">
+                    <div class="feature-icon">🌙</div>
+                    <h3>Moon Phases</h3>
+                    <ul class="feature-list">
+                        <li>Current phase tracker</li>
+                        <li>Meaning & advice</li>
+                        <li>Action suggestions</li>
+                    </ul>
+                    <p class="feature-description">Understand how each lunar phase influences energy, reflection, and intention.</p>
+                </div>
 
-<h2>1. Data Collection</h2>
+                <!-- Horoscope Feature -->
+                <div class="feature-card">
+                    <div class="feature-icon">♈</div>
+                    <h3>Horoscope</h3>
+                    <ul class="feature-list">
+                        <li>Weekly horoscope</li>
+                        <li>All zodiac signs</li>
+                        <li>Grounded language</li>
+                    </ul>
+                    <p class="feature-description">Receive weekly astrological insight to help guide decisions and mindset.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p>
-Enchant Me! does not collect personal information such as names, email addresses, phone numbers,
-precise location data, contacts, messages, or any other personal identifiers. All functionality
-is available without providing personal data.
-</p>
+    <!-- How It Feels -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>How It Feels to Use</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <span class="check">✓</span>
+                    <p>Calm and distraction-free</p>
+                </div>
+                <div class="experience-item">
+                    <span class="check">✓</span>
+                    <p>Designed for reflection, not rush</p>
+                </div>
+                <div class="experience-item">
+                    <span class="check">✓</span>
+                    <p>Gentle animations and transitions</p>
+                </div>
+                <div class="experience-item">
+                    <span class="check">✓</span>
+                    <p>No social pressure, no comparisons</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h2>2. App Functionality and Internet Usage</h2>
+    <!-- Screenshots -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2>App Preview</h2>
+            <div class="screenshot-gallery">
+                <div class="screenshot-item">
+                    <img src="assets/screenshot-1.jpg" alt="Enchant Me App Screenshot 1" loading="lazy">
+                    <!-- <p class="screenshot-caption">Main Menu</p> -->
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot-2.jpg" alt="Enchant Me App Screenshot 2" loading="lazy">
+                    <!-- <p class="screenshot-caption">Choose Your Spread</p> -->
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot-3.jpg" alt="Enchant Me App Screenshot 3" loading="lazy">
+                    <!-- <p class="screenshot-caption">Reading Interpretation</p> -->
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot-4.jpg" alt="Enchant Me App Screenshot 4" loading="lazy">
+                    <!-- <p class="screenshot-caption">Daily Card</p> -->
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot-5.jpg" alt="Enchant Me App Screenshot 5" loading="lazy">
+                    <!-- <p class="screenshot-caption">Moon Phase Tracker</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p>
-Enchant Me! requires an active internet connection to operate. The app retrieves prewritten,
-non-personal content from publicly available text files hosted on GitHub. This includes tarot
-reading templates, horoscope content, and moon phase information.
-</p>
+    <!-- Privacy & Trust -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <h2>Privacy & Simplicity</h2>
+            <div class="privacy-content">
+                <p><strong>Enchant Me! respects your privacy.</strong></p>
+                <p>The app does not require accounts, does not collect personal data, and stores all content locally on your device.</p>
+                <p>Advertisements are provided through Google AdMob and follow Google's privacy standards.</p>
+                <p><a href="policy.html" class="privacy-link">Read Privacy Policy →</a></p>
+            </div>
+        </div>
+    </section>
 
-<p>
-This content is downloaded when the app starts and stored temporarily in the app’s memory for use
-during the current session. No personal information is transmitted during this process, and no
-data is uploaded from the user’s device.
-</p>
+    <!-- Final CTA -->
+    <section id="cta-final" class="cta-final">
+        <div class="container">
+            <h2>Ready to Begin?</h2>
+            <a href="https://play.google.com/store/apps/details?id=com.roninworks.enchantme&pcampaignid=web_share" class="cta-button primary" target="_blank" rel="noopener">
+                <img src="assets/google-play-badge.svg" alt="Get it on Google Play" class="play-badge">
+            </a>
+            <p class="cta-subtext">Free to download · No account required</p>
+        </div>
+    </section>
 
-<h2>3. Advertising</h2>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Enchant Me!</h3>
+                    <p>Tarot, Horoscope & Moon Guidance</p>
+                </div>
+                <div class="footer-links">
+                    <a href="policy.html">Privacy Policy</a>
+                    <span class="email-copy" onclick="copyEmail()" title="Click to copy">ask.roninworks@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Enchant Me! All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-<p>
-Enchant Me! uses Google AdMob to display advertisements. AdMob may automatically collect limited
-device information such as advertising identifiers, device type, and basic app interaction data.
-This information is used by Google to deliver personalized or non-personalized advertisements,
-depending on the user’s device and system settings.
-</p>
-
-<p>
-Google’s use of data is governed by its own privacy policy, which can be found at:
-<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-https://policies.google.com/privacy
-</a>
-</p>
-
-<h2>4. User-Stored Data</h2>
-
-<p>
-Enchant Me! allows users to save tarot readings, sigils, spell notes, and related app data locally
-on their device. The app also allows users to export this data to a local file and import it on
-another device for migration purposes.
-</p>
-
-<p>
-All saved data remains entirely on the user’s device. This data is never uploaded to external
-servers and is not accessible to the developer. The app accesses this data only to display it
-locally to the user.
-</p>
-
-<h2>5. Third-Party Services</h2>
-
-<p>
-Enchant Me! uses third-party services strictly for functionality and monetization purposes.
-These services include Google AdMob for advertising and GitHub for hosting static content files.
-No personal user data is shared with GitHub. Content is retrieved as static text files only.
-</p>
-
-<h2>6. Children’s Privacy</h2>
-
-<p>
-Enchant Me! is not directed toward children under the age of 13. The app does not knowingly collect
-personal information from children. If you believe that a child has provided personal data, please
-contact the developer so appropriate action can be taken.
-</p>
-
-<h2>7. Changes to This Privacy Policy</h2>
-
-<p>
-This privacy policy may be updated from time to time. Any changes will be posted on this page and
-will take effect immediately upon publication.
-</p>
-
-<h2>8. Contact</h2>
-
-<p>
-If you have any questions or concerns regarding this privacy policy, you may contact the developer
-at:
-</p>
-
-<p>
-<strong>Email:</strong> ask.roninworks@gmail.com
-</p>
-
+    <script src="script.js"></script>
+    <script>
+        function copyEmail() {
+            const email = 'ask.roninworks@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                const el = document.querySelector('.email-copy');
+                const originalText = el.textContent;
+                el.textContent = 'Copied!';
+                setTimeout(() => {
+                    el.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>
